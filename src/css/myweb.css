@@ -1,0 +1,40 @@
+/*reset page*/
+*{ margin:0; padding:0; border:0;}
+
+html{overflow: scroll;}
+
+body{font-family: "微软雅黑";
+	 text-align: center;
+	 background: #006600;
+	 width: 100%;
+}
+.header{
+	background: #660000;
+	width: 1210px;
+	height: 150px;
+}
+.main_body{
+	background: #000066;
+	width: auto;
+}
+.footer{
+	background: #666600;
+	width: auto;
+}
+.header .logo{
+	position: absolute;
+	left: 40px;
+	top: 110px;
+	border: 1px;
+}
+.header ul{
+	position: absolute;
+	left: 170px;
+	top: 110px;
+	width:830px;
+}
+.header ul li{
+	float: left;
+	border: 1px;
+	margin-left: 30px;
+}
