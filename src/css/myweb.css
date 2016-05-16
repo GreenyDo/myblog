@@ -1,40 +1,121 @@
 /*reset page*/
 *{ margin:0; padding:0; border:0;}
 
-html{overflow: scroll;}
+html{overflow-x: hidden;}
 
 body{font-family: "微软雅黑";
 	 text-align: center;
 	 background: #006600;
+	 overflow: auto;
+	 display: block;
 	 width: 100%;
 }
+/*页面头部*/
 .header{
-	background: #660000;
-	width: 1210px;
+	background: #3366CC;
 	height: 150px;
+	border:1px;
+	width: 100%;
+	display: block;
 }
+/*内容主体*/
 .main_body{
 	background: #000066;
-	width: auto;
+	width: 100%;
+	height: 1200px;
+	display: block;
 }
+/*页脚*/
 .footer{
 	background: #666600;
-	width: auto;
+	width: 100%;
+	display: block;
+	clear:both;
+	height: 50px;
+	float: left;
 }
-.header .logo{
+/*页面头部>logo*/
+.logo{
 	position: absolute;
-	left: 40px;
-	top: 110px;
+	left: 28px;
+	top: 93px;
 	border: 1px;
+	display: block;
+	font-size: 1.5em;
+	font-style: italic;
+	color: #00DD00;
 }
+/*页面头部>导航栏*/
 .header ul{
 	position: absolute;
-	left: 170px;
-	top: 110px;
+	left: 220px;
+	top: 100px;
 	width:830px;
+	display: block;
 }
+/*页面头部>导航栏>按钮*/
 .header ul li{
 	float: left;
 	border: 1px;
 	margin-left: 30px;
+	display: block;
+}
+/*盘旋-头部导航栏-按钮*/
+.hover_head_bt{
+	color: #6633FF;
+}
+/*页面主体>文章*/
+.artical{
+	width: 78%;
+	background: #006666;
+	display: block;
+	height: 1200px;
+	float: left;
+}
+/*页面主体>侧面导航栏*/
+.aside_nav{
+	width: 22%;
+	background: #666666;
+	display: block;
+	height: 1200px;
+	float: right;
+}
+/*页面主体>content*/
+.artical ul li{
+	height: 400px;
+	background: #999999;
+	display: block;
+	width: 100%;
+	border:1px solid black;
+}
+/*页面主体>侧面导航栏>搜索*/
+.search{
+	height: 70px;
+	background: #445566;
+	display: block;
+	width: 100%;
+	border:1px solid #336677;
+}
+/*页面主体>侧面导航栏>关键字查看*/
+.keyword{
+	height: 650px;
+	background: #445566;
+	display: block;
+	width: 100%;
+	border:1px solid #336677;
+}
+/*页面主体>侧面导航栏>github*/
+.my_github{
+	height:80px;
+	background: #445566;
+	display: block;
+	width: 100%;
+	border:1px solid #336677;
+}
+/*页面主体>侧面导航栏>关键字查看>关键字&热词*/
+.word_list,.hot_word{
+	height: 325px;
+	width: 100%;
+	display: block;
+	border:1px solid #336677;
 }
