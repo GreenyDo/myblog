@@ -1,5 +1,21 @@
 /*reset page*/
-*{ margin:0; padding:0; border:0;}
+/**{ margin:0; padding:0; border:0;}不推荐的初始化*/
+/*来自于淘宝的初始化*/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; }
+body, button, input, select, textarea { font:12px/1.5tahoma, arial, \5b8b\4f53; }
+h1, h2, h3, h4, h5, h6{ font-size:100%; }
+address, cite, dfn, em, var { font-style:normal; }
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; }
+small{ font-size:12px; }
+ul, ol { list-style:none; }
+a { text-decoration:none; }
+a:hover { text-decoration:underline; }
+sup { vertical-align:text-top; }
+sub{ vertical-align:text-bottom; }
+legend { color:#000; }
+fieldset, img { border:0; }
+button, input, select, textarea { font-size:100%; }
+table { border-collapse:collapse; border-spacing:0; }
 
 html{overflow-x: hidden;}
 
@@ -13,7 +29,7 @@ body{font-family: "微软雅黑";
 /*页面头部*/
 .header{
 	background: #3366CC;
-	height: 150px;
+	height: 120px;
 	border:1px;
 	width: 100%;
 	display: block;
@@ -37,11 +53,12 @@ body{font-family: "微软雅黑";
 /*页面头部>logo*/
 .logo{
 	position: absolute;
-	left: 28px;
-	top: 93px;
+	left: 25px;
+	top: 62px;
 	border: 1px;
 	display: block;
-	font-size: 1.5em;
+	font-size: 1.6em;
+	font-family: 'Comic Sans MS', cursive, sans-serif;
 	font-style: italic;
 	color: #00DD00;
 }
@@ -49,7 +66,7 @@ body{font-family: "微软雅黑";
 .header ul{
 	position: absolute;
 	left: 220px;
-	top: 100px;
+	top: 78px;
 	width:830px;
 	display: block;
 }
