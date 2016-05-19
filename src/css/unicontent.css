@@ -7,7 +7,6 @@ code, kbd, pre, samp { font-family:couriernew, courier, monospace; }
 small{ font-size:12px; }
 ul, ol { list-style:none; }
 a { text-decoration:none; }
-a:hover { text-decoration:underline; }
 sup { vertical-align:text-top; }
 sub{ vertical-align:text-bottom; }
 legend { color:#000; }
@@ -32,12 +31,12 @@ body{
 	background: #006600;
 	height: 120px;
 	border:1px;
-	width:1210px;
+	width:90%;
 	display: block;
 	margin: 0 auto;
 }
 .main_content{
-	width: 1210px;
+	width: 90%;
 	border:1px;
 	display: block;
 	margin: 0 auto;
@@ -68,5 +67,12 @@ body{
 	position: absolute;
 	left: 40px;
 	top: 50px;
+}
+.header h1{
+	display: block;
+	position: absolute;
+	left: 42%;
+	top: 20px;
+	font-size: 4em;
 }
 

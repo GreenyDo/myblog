@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	// 头部导航按钮
-	var $nav=$(".nav>li");
+	var $nav=$(".nav>li>a");
 	$nav.mouseover(function(){
 		$(this).css("color","#993300");
 	}).mouseout(function(){
@@ -9,14 +9,8 @@ $(document).ready(function(){
 
 	// 头部logo
 	$(".logo").mouseover(function(){
-		$(this).animate({'font-size':'1.7em'},400);
+		$(this).stop().animate({'font-size':'1.7em'},400);
 	}).mouseout(function(){
-		$(this).animate({'font-size':'1.6em'},200);
+		$(this).stop().animate({'font-size':'1.6em'},200);
 	});
-
-	//Web按钮
-	var $nav_web=$(".nav>li:eq(0)");
-	$nav_web.click(function(){
-		window.open("unicontent.html");
-	})
 });

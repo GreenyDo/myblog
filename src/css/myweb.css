@@ -8,8 +8,7 @@ address, cite, dfn, em, var { font-style:normal; }
 code, kbd, pre, samp { font-family:couriernew, courier, monospace; }
 small{ font-size:12px; }
 ul, ol { list-style:none; }
-a { text-decoration:none; }
-a:hover { text-decoration:underline; }
+a { text-decoration:none; color: black;}
 sup { vertical-align:text-top; }
 sub{ vertical-align:text-bottom; }
 legend { color:#000; }
@@ -65,9 +64,9 @@ body{font-family: "微软雅黑";
 /*页面头部>导航栏*/
 .header ul{
 	position: absolute;
-	left: 220px;
+	left: 260px;
 	top: 78px;
-	width:830px;
+	width:730px;
 	display: block;
 }
 /*页面头部>导航栏>按钮*/
