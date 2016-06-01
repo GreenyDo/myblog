@@ -4,8 +4,10 @@
 	<head>
 		<title>GreenyDo's blog</title>
 		<meta http-equiv="Content-type" content="text/html">
-		<!-- <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
-		<link href="css/myweb.css" rel="stylesheet" type="text/css" />
+		<!-- 为了移动设备的支持 viewport -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="libs/bootstrap_3.3.5/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/myweb.css">
 	</head>
 	<body>
 		<div class="header">
@@ -30,7 +32,12 @@
 				</ul>
 			</div>
 			<div class="aside_nav">
-				<div class="search">搜索</div>
+				<div class="search">
+					<form class="form-search">
+						<input type="text" class="input-medium search-query">
+						<button type="submit" class="btn">Search</button>
+					</form>
+				</div>
 				<div class="keyword">
 					<div class="word_list">词条</div>
 					<div class="hot_word">热点词汇</div>
@@ -39,9 +46,8 @@
 			</div>
 		</div>
 		<div class="footer">页脚</div>
-		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript" src="libs/jquery.js"></script>
 		<script type="text/javascript" src="js/homepage.js"></script>
-		<!-- <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
-		 <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>-->
+		<script type="text/javascript" src="libs/bootstrap_3.3.5/js/bootstrap.min.js"></script>
 	</body>
 </html>
